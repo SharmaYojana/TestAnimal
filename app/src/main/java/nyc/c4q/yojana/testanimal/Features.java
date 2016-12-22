@@ -10,4 +10,8 @@ public class Features {
     boolean success;
 
     private List<Animals> animal;
+
+    public List <Animals> getAnimal(){
+        return animal;
+    }
 }
